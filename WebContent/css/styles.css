@@ -1,0 +1,686 @@
+@charset "utf-8";
+/* CSS Document */
+html {height:100%}
+body {
+	margin:0;
+	padding:0;
+	font-family:Verdana;
+	font-size:12px;
+	color:#555555;
+	height:100%;
+}
+a, a:visited, a:hover {
+	text-decoration:none;
+	color:#555;
+}
+img {border:0}
+body > #container { height: auto; min-height: 100%; }
+/*************** Login *****************/
+#container-login {
+	width:100%;
+	background:url('../images/topo-login-bkg.jpg') repeat-x;
+	background-size:auto;
+	margin-bottom:30px;
+}
+#content-login {
+	height:auto;
+	width:1000px;
+	margin: 0 auto;
+	padding-left:30px;
+	padding-bottom:110px;
+}
+#login {
+	background:url('../images/login-bkg.jpg') no-repeat;
+	height:300px;
+	width:421px;
+	margin:50px auto 0px auto;
+}
+#login-drttia, #login-drttia div, #login-senha, #login-senha div {
+	float:left;
+}
+#login-senha input, #login-drttia input {
+	margin-left:15px;
+}
+#login-senha, #login-drttia {
+	margin-bottom:15px;
+}
+#login-form {
+	padding: 95px 45px;
+}
+.btn-login {
+	background:url('../images/btn-acesso.png') no-repeat;
+	border:0;
+	width:101px;
+	height:36px;
+	margin-right: 43px;
+	margin-right:62px\9;
+	cursor:pointer;
+}
+.loginErro {
+	color:red;
+	text-align:center;
+	font-weight:bold;
+}
+#footer-login-container {
+	width:100%;
+	background:url('../images/rodape-login-bkg.jpg') repeat-x;
+	background-size:auto;
+	height:100px;
+	clear:both !important;
+	position:relative;
+	z-index: 10;
+	margin-top: -100px;
+}
+#logoRodape-login {
+	padding-top: 20px;
+	text-align:center;
+}
+/*************** Usuario ***************/
+#container {
+	width:100%;
+	background:url('../images/topo-bkg.jpg') repeat-x;
+	background-size:auto;
+	margin-bottom:30px;
+}
+#header {
+	width:1000px;
+	margin:0 auto;
+}
+#menu ul {
+	height: 35px;
+	padding: 14px 0 9px 0;
+	margin: 0 0 0 17px;
+}
+#menu ul li {
+	float:left;
+	list-style:none;
+	padding-left:10px;
+}
+#usuario {
+	margin-top:10px;
+	height:28px;
+}
+#usuario span {
+	margin-left:30px;
+	font-size:18px;
+}
+#content {
+	height:auto;
+	width:1000px;
+	margin: 0 auto;
+	padding-left:30px;
+	padding-bottom:440px;
+}
+#breadcrumb {
+	margin-left:20px;
+	font-size:10px;
+	margin-bottom:15px;
+}
+#breadcrumb img {
+	float:left;
+	margin-top: 8px;
+}
+#breadcrumb h1 {
+	color:#5e0302;
+	font-size:36px;
+	/*background:url('../images/breadcrumb-bullet.png') no-repeat 3px;*/
+	margin:15px 0 4px 25px;
+	border-bottom:1px solid #ccc;
+}
+#breadcrumb span {
+	color:#5e0302;
+	font-size:10px;
+	margin-left:26px;
+}
+.novoRequerimento {
+	font-size: 36px;
+	color: #5E0302;
+}
+#content-body {
+	margin-left:45px;
+}
+#content-body ul {
+	margin-left: 5px;
+	padding: 0;
+	margin-top: 10px;
+}
+#content-body ul li {
+	background:url('../images/content-bullet.png') no-repeat 0 16px;
+	margin:0;
+	padding: 15px 20px 0 15px;
+	list-style:none;
+}
+#footer-container {
+	width:100%;
+	background:url('../images/rodape-bkg.jpg') repeat-x;
+	background-size:auto;
+	height:440px;
+	clear:both !important;
+	position:relative;
+	z-index: 10;
+	margin-top: -440px;
+}
+#footer {
+	width:1000px;
+	margin:	0 auto;
+}
+#mapa {
+	padding-top:25px;
+	margin-left:30px;
+	width:770px;
+	float:left;
+	height:325px;
+}
+#mapaImg {
+	clear:both;
+}
+#col1{
+	margin-top:15px;
+	float:left;
+}
+#col1 span {
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:5px;
+}
+#col1 ul, #col2 ul {
+	margin:5px 0 0 20px;
+	padding:0;	
+}
+#col1 ul li, #col2 ul li {
+	background:url('../images/mapa-bullet-peq.png') no-repeat 0 6px;
+	list-style:none;
+	line-height:25px;
+	padding-left:15px;
+}
+#col1 a,#col1 a:visited {
+	color:white;	
+}
+#col2 {
+	margin-top:15px;
+	float:left;
+	margin-left:90px;
+}
+#col2 span {
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:5px;
+}
+#col2 a,#col2 a:visited {
+	color:white;	
+}
+#col1 div, #col2 div {
+	margin-bottom:30px;
+}
+.mapa-cadastrar {
+	margin-bottom:0 !important;
+}
+#links {
+	padding-top:25px;
+	width:200px;
+	float:left;
+	height:325px;
+}
+#links span {
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:5px;
+}
+#links a,#links a:visited {
+	color:white;	
+}
+#links div {
+	margin-top:15px;
+}
+#logoRodape {
+	text-align:center;
+}
+#copyright {
+	margin-top:15px;
+	text-align:center;
+	margin-bottom: 8px;
+}
+/************** FAQ ****************/
+.resposta {
+	display:none;
+}
+.faq a {
+	font-weight:bold;
+}
+/************** Fale Conosco ********************/
+#faleConosco {
+	height:480px;
+}
+#faleConosco-form {
+	float:left;
+	width: 50%;
+}
+#faleConosco-form form {
+	padding-top:0 !important;
+}
+#faleConosco-inf {
+	float:right;
+	width: 40%;
+}
+#faleConosco-inf-img {
+	float:left;
+	margin-right:5px;
+}
+#faleConosco-inf-img img {
+	border:0;
+	width:60px;
+}
+#faleConosco-inf-txt h2 {
+	font-size: 14px;
+	font-weight:bold;
+	color:#5E0302;
+	margin:0;
+}
+#mapaCampus img {
+	width: 350px;	
+}
+/************** Meu Perfil **********************/
+#meuPerfil table tr td {
+	height:20px;
+}
+#td-email input {
+	display:none;
+}
+#td-email span {
+	display:block;
+}
+#mostrarCampo {
+	display:block;
+}
+#alterar {
+	display:none;
+}
+.label {
+	font-weight:bold;
+}
+/************** Requerimentos *******************/
+#content-body div {
+	padding-top:15px;
+}
+#content-body form {
+	margin-left:30px;
+	padding-top:15px;
+}
+#requerimento-form div {
+	margin-left:0 !important;
+	padding-top:5px !important;
+}
+#requerimento-form form {
+	margin-left:0 !important;
+	padding-top:0px !important;
+}
+#requerimento-form form input {
+	vertical-align:middle;
+}
+.indentado {
+	padding-left:35px;
+}
+.justified {
+	text-align:justify;
+	margin-bottom:45px;
+}
+#obs {
+	line-height:20px;
+	word-spacing:2px;
+	text-align:justify;
+}
+#obs span {
+	background:#5E0302;
+	color:#fff;
+	font-weight:bold;
+}
+#requerimento {
+	margin-top:15px;
+	padding: 15px !important;
+	border: 1px solid #ccc;
+	margin:0 auto;
+}
+#requerimento-header {
+	text-align:center;
+	height:90px;
+	vertical-align:middle;
+	padding-top: 0 !important;
+}
+#requerimento-header div {
+	float:left;
+	font-size:22px;
+	font-weight:bold;
+	padding-top: 0 !important;
+	height: 90px;
+}
+#requerimento-header div span {
+	font-size: 14px;
+}
+#requerimento-body {
+	line-height:30px;
+	word-spacing:5px;
+}
+#requerimento-body span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#anexos {
+	padding-top: 0 !important;
+}
+#anexos div {
+	padding-top: 0 !important;
+	line-height:30px;
+}
+#anexos img {
+	border:0;
+	margin-right:10px;
+	float: left;
+}
+#sucesso {
+	height:130px;
+	margin:50px auto;
+	width:535px;
+}
+#sucesso div {
+	text-align:center;
+}
+#sucesso img {
+	border:0;
+	float:left;
+	height:120px;
+	margin-right:15px;
+}
+#imprimir-req {
+	clear: both;
+}
+#requerimento-inf {
+	border:1px solid #ccc;
+	margin:15px 0 15px 0;
+	padding:15px;
+	line-height:30px;
+}
+#requerimento-inf h2 {
+	margin-top:0;
+}
+#requerimento-hist {
+	border:1px solid #ccc;
+	margin:15px 0 0 0;
+	padding:15px;
+	line-height:30px;
+}
+#requerimento-hist h2 {
+	margin-top:0;
+}
+#requerimento-hist table tr th {
+	background:#5E0302;
+	padding:0 15px;
+	color:#fff;
+	text-align:center;
+}
+#requerimento-hist table tr td {
+	text-align:center;
+	padding:4px 15px 4px 15px;
+	border-bottom:1px solid #cecece;
+}
+#btn-imprimir {
+	line-height:32px;
+	float:right;
+	padding-top:0 !important;
+	font-size:12px;
+	font-weight:normal;
+}
+#btn-imprimir img {
+	width:30px;
+	float: left;
+	margin-right:4px;
+}
+#imprimir {
+	display:none;
+}
+/************** Meus Requerimentos **************/
+#listaRequerimentos table tr th {
+	background:#5E0302;
+	padding:8px 15px;
+	color:#fff;
+	text-align:center;
+}
+#listaRequerimentos table tr td {
+	text-align:center;
+	padding:4px 15px 4px 15px;
+	border-bottom:1px solid #cecece;
+}
+#listaRequerimentos a, #listaRequerimentos a:visited {
+	color:#555;
+	font-weight:bold;
+}
+#listaRequerimentos a:hover {
+	color:red;
+	font-weight:bold;
+}
+#paginacao {
+	width:280px;
+	margin: 0 auto;
+}
+.pagBox {
+	padding: 3px 6px !important;
+	margin:3px;
+	background:#eee;
+	font-size:10px;
+	float:left;
+	border:1px solid #666;
+	cursor:pointer;
+}
+.pagBox:hover {
+	color:#fff;
+	background:#5E0302;
+	border:1px solid #666;
+	cursor:pointer;
+}
+/********************************* Admin *****************************/
+#footer-admin-container {
+	width:100%;
+	background:url('../images/rodape-admin-bkg.jpg') repeat-x;
+	background-size:auto;
+	height:470px;
+	clear:both !important;
+	position:relative;
+	z-index: 10;
+	margin-top: -470px;
+}
+#mapa-admin {
+	padding-top:25px;
+	margin-left:30px;
+	width:770px;
+	float:left;
+	height:355px;
+}
+#links-admin {
+	padding-top:25px;
+	width:200px;
+	float:left;
+	height:355px;
+}
+#links-admin span {
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:5px;
+}
+#links-admin a,#links-admin a:visited {
+	color:white;	
+}
+#links-admin div {
+	margin-top:15px;
+}
+/************************* Minhas tarefas ****************************/
+#comandos-home {
+	padding-top:0 !important;
+	width:985px;
+	margin:0 auto;
+}
+#comandos-home-filtrar, #comandos-home-acoes {
+	clear:both;
+}
+#comandos-home-filtrar div {
+	float:left;
+	line-height:24px;
+	padding-top:0 !important;
+	margin-right:15px;
+}
+#comandos-home-acoes div {
+	float:left;
+	line-height:24px;
+	padding-top:0 !important;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+#comandos-home select{
+	padding:1px;
+}
+#comandos-home-acoes form {
+	padding-top:0 !important;
+	margin-left:0 !important;
+}
+
+#comandos {
+	padding-top:0 !important;
+	margin:0 auto;
+}
+#comandos-filtrar, #comandos-acoes {
+	clear:both;
+}
+#comandos-filtrar div {
+	float:left;
+	line-height:24px;
+	padding-top:0 !important;
+	margin-right:15px;
+}
+#comandos-acoes div {
+	float:left;
+	line-height:24px;
+	padding-top:0 !important;
+	margin-right:15px;
+}
+#comandos select{
+	padding:1px;
+}
+
+#listaRequerimentos-admin-home {
+	margin:15px 0 0px -30px;
+}
+#listaRequerimentos-admin-home table tr th {
+	background:#5E0302;
+	padding:8px 15px;
+	color:#fff;
+	text-align:center;
+}
+#listaRequerimentos-admin-home table tr td {
+	text-align:center;
+	padding:4px 15px 4px 15px;
+	border-bottom:1px solid #cecece;
+}
+#listaRequerimentos-admin-home a, #listaRequerimentos-admin-home a:visited {
+	color:#555;
+	font-weight:bold;
+}
+#listaRequerimentos-admin {
+	margin:15px 0;
+}
+#listaRequerimentos-admin a:hover {
+	color:red;
+	font-weight:bold;
+}
+#listaRequerimentos-admin table tr th {
+	background:#5E0302;
+	padding:8px 15px;
+	color:#fff;
+	text-align:center;
+}
+#listaRequerimentos-admin table tr td {
+	text-align:center;
+	padding:4px 15px 4px 15px;
+	border-bottom:1px solid #cecece;
+}
+#listaRequerimentos-admin a, #listaRequerimentos-admin a:visited {
+	color:#555;
+	font-weight:bold;
+}
+#listaRequerimentos-admin a:hover {
+	color:red;
+	font-weight:bold;
+}
+#paginacao-admin {
+	width:280px;
+	margin: 0 auto;
+}
+#menu-cadastrar {
+	width:150px;
+	float:left;
+}
+#menu-relatorios {
+	width:200px;
+	float:left;
+}
+#menu-cadastrar div, #menu-relatorios div {
+	background:url('../images/bullet-sprite.png') no-repeat 0 6px;
+	line-height:25px;
+	padding-left:15px;
+	padding-top:0 !important;
+}
+#menu-cadastrar div:hover, #menu-relatorios div:hover {
+	background:url('../images/bullet-sprite.png') no-repeat 0 -30px;
+	line-height:25px;
+	padding-left:15px;
+	padding-top:0 !important;
+}
+#menu-cadastrar a:hover, #menu-relatorios a:hover {
+	color:#5e0302;
+}
+.cadastrar {
+	min-height:250px;
+}
+.relatorios {
+	min-height:350px;
+}
+#content-cadastrar, #content-relatorios {
+	float:left;
+}
+#content-cadastrar form {
+	padding-top: 0;
+	margin-left:0px;
+}
+.subtitulo {
+	font-size: 24px;
+	color: #5E0302;
+	font-weight:bold;
+	padding-top:0 !important;
+	width:755px;
+	vertical-align:middle;
+}
+.subtitulo div {
+	float:right;
+	vertical-align:middle;
+	padding-top: 0 !important;
+}
+#chart_div2 div, #chart_div div, #chart_div3 div, #chart_div, #chart_div2, #chart_div3 {
+	padding-top:0 !important;
+}
+#chart_div, #chart_div2, #chart_div3 {
+page-break-before:always;
+}
+#exec-acao {
+	border:1px solid #ccc;
+	margin:15px 0 0 0;
+	padding: 0 15px 15px 15px;
+	line-height:30px;
+}
+#exec-acao h2 {
+	margin-top:0;
+}
+#exec-acao div,  #exec-acao form{
+	margin:0;
+	padding:0;
+}

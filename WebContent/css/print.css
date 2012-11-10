@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+html {height:100%}
+body {
+	margin:0;
+	padding:0;
+	font-family:Verdana;
+	font-size:10px;
+	color:#555555;
+	height:100%;
+}
+a, a:visited, a:hover {
+	text-decoration:none;
+	color:#555;
+}
+img {border:0}
+body > #container { height: auto; min-height: 100%; }
+
+/************** Requerimentos *******************/
+#content-body div {
+	padding-top:15px;
+}
+#content-body form {
+	margin-left:30px;
+	padding-top:15px;
+}
+#requerimento {
+	margin-top:15px;
+	padding: 15px !important;
+	border: 1px solid #ccc;
+	margin:0 auto;
+}
+#requerimento-header {
+	text-align:center;
+	height:90px;
+	vertical-align:middle;
+	padding-top: 0 !important;
+}
+#requerimento-header div {
+	float:left;
+	font-size:16px !important;
+	font-weight:bold;
+	padding-top: 0 !important;
+	height: 90px;
+}
+#requerimento-header div span {
+	font-size: 13px !important;
+}
+#requerimento-body {
+	line-height:30px;
+	word-spacing:5px;
+}
+#requerimento-body span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#anexos {
+	padding-top: 0 !important;
+}
+#anexos div {
+	padding-top: 0 !important;
+	line-height:30px;
+}
+#anexos img {
+	border:0;
+	margin-right:10px;
+	float: left;
+}
+#sucesso {
+	height:130px;
+	margin:50px auto;
+	width:535px;
+}
+#sucesso div {
+	text-align:center;
+}
+#sucesso img {
+	border:0;
+	float:left;
+	height:120px;
+	margin-right:15px;
+}
+#imprimir-req {
+	clear: both;
+} 
+#requerimento-inf {
+	border:1px solid #ccc;
+	margin:15 0 15px 0;
+	padding:15px;
+	line-height:30px;
+	page-break-before:always;
+}
+#requerimento-inf h2 {
+	margin-top:0;
+	font-size:12px !important;
+}
+#requerimento-inf strong {
+	font-size:11px !important;
+}
+#requerimento-inf table tr td {
+	font-size:11px !important;
+}
+#requerimento-hist {
+	border:1px solid #ccc;
+	margin:15px 0 0 0;
+	padding:0 15px 15px 15px !important;
+	line-height:30px;
+}
+#requerimento-hist h2 {
+	margin-top:0;
+	font-size:12px !important;
+}
+#requerimento-hist table tr th {
+	background:#5E0302;
+	padding:0 15px;
+	color:#fff;
+	text-align:center;
+	font-size:11px !important;
+}
+#requerimento-hist table tr td {
+	text-align:center;
+	padding:4px 15px 4px 15px;
+	border-bottom:1px solid #cecece;
+	font-size:11px !important;
+}
+#btn-imprimir {
+	line-height:32px;
+	float:right;
+	padding-top:0 !important;
+}
+#btn-imprimir img {
+	width:30px;
+	float: left;
+	margin-right:4px;
+}
+#imprimir {
+	display:none;
+}
+/********************************/
+.subtitulo {
+	font-size: 24px;
+	color: #5E0302;
+	font-weight:bold;
+	padding-top:0 !important;
+	width:755px;
+	vertical-align:middle;
+}
+#chart_div2 div, #chart_div div, #chart_div3 div, #chart_div, #chart_div2, #chart_div3 {
+	padding-top:0 !important;
+}
+#chart_div2, #chart_div3 {
+/*page-break-before:always;*/
+}
